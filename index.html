@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="app" class="app">
+        <h1 class="logo">TODO LIST APP</h1>
+        <div>
+            <form id='todoAddForm'>
+                <input class='todo-add-form-input' value='new-todo'>
+                <button type='submit' class="submit-button">add</button>
+            </form>
+            <div class='todo-list-container'>
+                <h1 class="logo">Todo list</h1>
+                <div id='filterButtons'>
+                    <button data-filter-value='done-only'>show done</button>
+                    <button data-filter-value='undone-only'>show undone</button>
+                    <button data-filter-value='all'>show all</button>
+                </div>
+            </div>
+            <div id='todoList'></div>
+        </div>
+    </div>
+    <script src='app.js'></script>
+</body>
+
+</html>

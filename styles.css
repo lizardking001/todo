@@ -1,0 +1,88 @@
+.app {
+    margin: auto;
+    width: 500px;
+    height: 450px;
+    background: #FF8DF0;
+    background: -moz-radial-gradient(center, #FF8DF0 0%, #FFFFFF 67%, #FFFFFF 100%);
+    background: -webkit-radial-gradient(center, #FF8DF0 0%, #FFFFFF 67%, #FFFFFF 100%);
+    background: radial-gradient(ellipse at center, #FF8DF0 0%, #FFFFFF 67%, #FFFFFF 100%);
+    ;
+}
+
+.logo {
+    margin: auto;
+    color: white;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 75px, 20px 17px 0px rgba(206, 89, 55, 0);
+}
+
+.todo-add-form-input {
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+}
+
+.submit-button {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    line-height: 17px;
+    margin: 2px;
+    padding: 12px;
+    border-radius: 38px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    -image: linear-gradient(rgb(255, 141, 240) 0%, rgb(255, 255, 255) 67%, rgb(211, 133, 196) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 0px solid rgb(255, 255, 255);
+    display: inline-block;
+}
+
+.submit-button:hover {
+    background: #FF8DF0;
+}
+
+.submit-button:active {
+    background: #D385C4;
+}
+
+.todo-list-item-text {
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F7E6FF;
+    border-radius: 8px;
+}
+
+.todo-list-item-remove {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    line-height: 12px;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 38px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    -image: linear-gradient(rgb(255, 141, 240) 0%, rgb(255, 255, 255) 67%, rgb(211, 133, 196) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 0px solid rgb(255, 255, 255);
+    display: inline-block;
+}
+
+.todo-list-item-remove:hover {
+    background: #FF8DF0;
+}
+
+.todo-list-item-remove:active {
+    background: #D385C4;
+}
